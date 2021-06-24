@@ -1,0 +1,199 @@
+*{
+    margin: 0;
+    padding: 0; 
+}
+
+@font-face {
+    font-family: Gilroy;
+    src: url("./Gilroy-Light.otf");
+}
+
+@font-face {
+    font-family: Exbold;
+    src: url("./Gilroy-ExtraBold.otf");
+}
+
+/* ------------------------------------------------MAIN BACKGROUND------------------------------------------------------------------------- */
+#main-div{ 
+    height: 100vh; 
+    width: 100%; 
+    background-color: #F2F2F2; 
+    position: absolute;
+    background-size: cover; 
+    background-position: center;
+}
+
+/* ---------------------------------------------------IMAGE BOX-------------------------------------------------------------------- */
+.image-box-div img{ 
+    height: 533px;
+    width: 1038px;
+    margin: 25px 161px 51px 167px;
+    position: absolute;
+    top: 40px;
+    overflow: hidden;
+    box-shadow: 0 14px 28px rgb(0 0 0 / 25%);
+    /* background-image: url(./login.png); */
+    /* added */
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+}
+
+.image-box-div .heading-div .eschool { 
+    position: relative;
+    margin: 7.5rem 0 0 54.5rem; 
+    font-size: 40px;
+    font-family: 'Exbold';  
+}
+
+/* ------------------------------------------------------FORM BOX----------------------------------------------------------------------------------------- */
+
+.form-box-div {
+    background-color: #701212; 
+    margin: 9px 40px 70px 780px; 
+    position: relative;
+    height: 350px;
+    width: 340px;
+    border-radius: 10px;
+    color: #fff;
+    align-items: left;  
+}
+
+.form-items-div{
+    display: flex;
+    flex-direction: column;
+    padding-top: 30px;
+    padding-left: 60px;
+}
+
+.title-div{
+    font-size: 20px;
+    font-family: Gilroy;
+}
+
+.form-div{
+    padding-top: 30px;
+    font-family: Gilroy;
+    font-size: 12px;
+}
+
+.form-div input{
+    border-top: 0;
+    border-right: 0;
+    border-left: 0;
+    border-bottom: 0.5px solid snow;
+    background: transparent;
+    outline: none;
+    color: #fff;
+    width: 80%;
+}
+
+.form-div .uname{
+    padding-bottom: 40px ;
+}
+
+.password-div p{
+    display: flex;
+    flex-direction: row-reverse; 
+    padding-right: 65px;
+    padding-top: 5px;
+    font-size: 12px;
+    cursor: pointer;
+}
+
+.button-line-div{
+    padding-top: 20px;
+    padding-right: 20px;
+}
+
+button {
+    padding: 8px 30px;
+    border-radius: 15px;
+    border: 0px;
+    text-transform: uppercase;
+    font-weight: 600;
+    font-size: 12px;
+    cursor: pointer;
+}
+
+.button-line-div .login-div{
+    color: #701212;
+    margin-right: 15px; 
+    font-family: Exbold;
+}
+
+.button-line-div .signup-div{
+    color: #fff; 
+    background-color: black;
+    font-family: Exbold;
+}
+
+/* -----------------------------------------------------ICONS ------------------------------------------------------------------------ */
+.icons-div{
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.icons-div p,
+.icons-div .icon-img-div{
+    padding-top: 10px;
+}
+
+.icons-div p{
+    font-size: 12px;
+    font-family: Gilroy;
+}
+
+ .para-div{
+    color: black;
+}
+
+.fab{
+    border-radius: 8px;
+    display: flex;
+    flex-direction: row;  
+    justify-content:space-between;  
+    padding: 4px;
+    margin-right: 6px;  
+} 
+
+#fb-icon-div{
+    color: rgb(51, 51, 236); 
+    background-color: white;
+}
+#tw-icon-div{
+    /* color: rgb(96, 173, 236);  */
+    color: rgb(8, 132, 235); 
+    background-color: white;
+}
+
+#fb-icon-div{
+    padding: 4px 7px;
+}
+
+
+
+#google-icon-div{
+  background:  linear-gradient(-120DEG, #4285F4, #34A853, #EA4335);
+  background-color: white;
+}
+
+
+/* --------------------------------------------------FORM FOOTER--------------------------------------------------------------------- */
+  
+.image-box-div .footer-div{
+    position: relative;
+    margin: -3.5rem 0 0 52rem; 
+    font-size: 9px;
+    font-family: Gilroy;
+} 
+
+
+
+
+
+
