@@ -1,9 +1,9 @@
 import React from 'react';
 import Login from './Login';
-import Signup from './Signup'
+import Signup from './Signup' 
 import './App.css';
 import { Route, Switch } from "react-router-dom";
-// import './Login.css';
+// import { useForm } from 'react-hook-form';
 
 
 function App() {
@@ -15,7 +15,7 @@ function App() {
        {/* <Route component={error}/> */}
       </Switch>
       {/* <Login />
-      <Signup /> */} 
+      <Signup /> */}  
 
     </div>
   );

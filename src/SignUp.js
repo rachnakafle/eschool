@@ -1,18 +1,15 @@
 import React from 'react';
 import './Signup.css';
-import image1 from './signup.png'  
 
-
-function App() {
+function SignUp() { 
   return (
-<>
-<link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css" integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p" crossorigin="anonymous"/>
-<div className="main">
-  <div className="image-box">
-  <img src={image1} alt="Background image" /> 
-    <div className="heading">
-      <h1>eSchool</h1>
-    </div>  
+    
+  <>
+  <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css" integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p" crossorigin="anonymous"/>
+<div className="container">
+  <div className="form_container">
+    <h1 className='main_title'>eSchool</h1>  
+    <form >
     <div className="form-box">
       <div className="title">
         <span>Sign Up</span> 
@@ -44,7 +41,7 @@ function App() {
           <div className="pword">
             <label htmlFor="password">Password*</label>
             <input type="text" className="input-field" required />
-          </div>
+          </div> 
           <div className="cword">
             <label htmlFor="password">Confirm Password*</label>
             <input type="text" className="input-field" required />
@@ -65,7 +62,8 @@ function App() {
           </div>
         </div>
         <div className="button-line">
-          <button className ="btn" type="submit">Sign up</button>
+          <button className="btn" type='submit'> Sign Up</button>
+    
           <div className="icons">
             <p>or Sign up with</p>
             <i className="fab fa-google" id="google-icon" />
@@ -78,15 +76,12 @@ function App() {
         </div>
       </div>
     </div>
-    <div className="footer">
-      <p>Privacy Policy | Acceptable Use Policy | Facebook | Twitter</p>
-    </div>
-  </div> 
+    </form>
+  </div>
+  <p className="privacy_text"> Privacy Policy &nbsp; Aceptable Use Policy &nbsp; Facebook &nbsp;Twitter</p>
 </div>
-
-</>
-   
-);
+   </>
+  );
 }
 
-export default App;
+export default SignUp;
