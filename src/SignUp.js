@@ -1,7 +1,9 @@
 import React from 'react';
-import './Signup.css';
+import './Signup.css'; 
 
-function SignUp() { 
+
+
+function SignUp() {
   return (
     
   <>
@@ -10,7 +12,7 @@ function SignUp() {
   <div className="form_container">
     <h1 className='main_title'>eSchool</h1>  
     <form >
-    <div className="form-box">
+    <div className="form-box"> 
       <div className="title">
         <span>Sign Up</span> 
       </div> 
@@ -22,7 +24,7 @@ function SignUp() {
           </div>
           <div className="mname">
             <label htmlFor="Middlename">Middle Name</label>
-            <input type="text" className="input-field" required />
+            <input type="text" className="input-field" />
           </div>
           <div className="lname">
             <label htmlFor="lastname">Last Name*</label>
@@ -40,11 +42,11 @@ function SignUp() {
         <div className="password">
           <div className="pword">
             <label htmlFor="password">Password*</label>
-            <input type="text" className="input-field" required />
-          </div> 
+            <input type="password" className="input-field" required />
+          </div>
           <div className="cword">
             <label htmlFor="password">Confirm Password*</label>
-            <input type="text" className="input-field" required />
+            <input type="password" className="input-field" required />
           </div>
         </div>
         <div className="sname">
@@ -72,13 +74,13 @@ function SignUp() {
           </div>
         </div>
         <div className="last-line">
-          <p>Already have an account? LOGIN</p>
+          <p className="donthaveacc">Already have an account? LOGIN</p>
         </div>
       </div>
     </div>
     </form>
   </div>
-  <p className="privacy_text"> Privacy Policy &nbsp; Aceptable Use Policy &nbsp; Facebook &nbsp;Twitter</p>
+  <p className="privacy_text"> Privacy Policy |&nbsp; Aceptable Use Policy |&nbsp; Facebook |&nbsp;Twitter</p>
 </div>
    </>
   );
